@@ -60,7 +60,7 @@ ROOT_URLCONF = 'projsettings.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR.parent,"build")],
+        'DIRS': [os.path.join(BASE_DIR,"build")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -135,11 +135,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #     os.path.join(BASE_DIR.parent,"build"),
 # ]
 
-STATIC_ROOT = os.path.join(BASE_DIR.parent,'build')
+STATIC_ROOT = os.path.join(BASE_DIR,'build')
 
 MEDIA_URL = '/projectimgs/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR.parent,'build/projectimgs')
+MEDIA_ROOT = os.path.join(BASE_DIR,'build/projectimgs')
 
 
 EMAIL_SENDER = "no.reply.python.py@gmail.com" 
