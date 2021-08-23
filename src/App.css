@@ -1,0 +1,480 @@
+.App-link {
+    color: #61dafb;
+}
+
+body {
+    background: #e1f5fe !important;
+}
+
+.Gith:hover {
+    color: brown;
+    animation: mohit 0.5s linear;
+}
+
+.margintopauto {
+    margin-top: 25vh !important;
+}
+
+@keyframes mohit {
+    0% {
+        transform: translateY(0%);
+    }
+    25% {
+        transform: translateY(20%);
+    }
+    50% {
+        transform: translateY(-20%);
+    }
+    75% {
+        transform: translateY(25%);
+    }
+    100% {
+        transform: translateY(-25%);
+    }
+}
+
+.Insh:hover {
+    color: violet;
+    animation: mohit 0.5s linear;
+}
+
+.Linh:hover {
+    color: blue;
+    animation: mohit 0.5s linear;
+}
+
+.Youh:hover {
+    color: crimson;
+    animation: mohit 0.5s linear;
+}
+
+.Git,
+.Youh,
+.Linh,
+.Insh {
+    cursor: pointer;
+}
+
+#homecom {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.ccopen,
+.ccclose {
+    display: none !important;
+    text-align: right !important;
+}
+
+#root {
+    background: #e1f5fe;
+    position: relative;
+    overflow: hidden;
+}
+
+.parentcontainercontactpage,
+.cardprojectparent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    flex-wrap: wrap;
+}
+
+.cardprojectparent {
+    margin-left: 350px;
+    margin-right: 30px;
+}
+
+.callsec,
+.locationsec,
+.contactemail {
+    margin: 10px;
+}
+
+.titleContact,
+.headerAbout,
+.eduheader,
+.headerprojects {
+    margin-left: 350px;
+    margin-bottom: 30px;
+    margin-top: -75px;
+}
+
+.descAbout,
+.skillscontainer {
+    margin-left: 350px;
+}
+
+.skillsdiblock {
+    display: inline-block;
+    background: rgb(212, 208, 208);
+    margin: 20px 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.buttondowncvdiv {
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.downresbtn {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    display: block !important;
+    margin: 20px auto !important;
+    border-radius: 30px !important;
+    border: 2px solid #3f51b5 !important;
+    background: transparent !important;
+    color: #3f51b5 !important;
+}
+
+.downresbtn:hover {
+    background: #3f51b5 !important;
+}
+
+.skillshead {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.homecarddynamicwidth {
+    margin-left: 280px;
+}
+
+.bgnavactive {
+    background: #dae4e9 !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    margin: 0px;
+    padding: 0;
+    position: relative;
+}
+
+.wrapper .center-line {
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    background: #fff;
+    left: 460px;
+    top: 20px;
+    transform: translateX(-50%);
+}
+
+.wrapper .row {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 500px;
+}
+
+.wrapper .row section {
+    background: #fff;
+    border-radius: 5px;
+    width: calc(80% - 40px);
+    min-width: 500px;
+    padding: 20px;
+    position: relative;
+}
+
+.wrapper .row section::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    top: 28px;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+.row-2 section::before {
+    left: -7px;
+}
+
+.row section .icon,
+.center-line .scroll-icon {
+    position: absolute;
+    background: #f2f2f2;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ff7979;
+    font-size: 17px;
+    box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.center-line .scroll-icon {
+    bottom: 0px;
+    left: 50%;
+    font-size: 25px;
+    transform: translateX(-50%);
+}
+
+.row-2 section .icon {
+    top: 15px;
+    left: -60px;
+}
+
+.row section .details,
+.row section .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row section .details .title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.row section p {
+    margin: 10px 0 17px 0;
+}
+
+.row section .bottom a {
+    text-decoration: none;
+    background: #ff7979;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    /* font-size: 17px; */
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.row section .bottom a:hover {
+    transform: scale(0.97);
+}
+
+.lastrowrow-2 {
+    margin-bottom: 20px;
+}
+
+#canvas {
+    position: absolute;
+    z-index: 1500 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projectcard img {
+    width: 400px;
+    min-height: 250px;
+}
+
+.contentproject {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    background: white;
+    margin-top: 40px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 8%), 0 1px 3px rgb(0 0 0 / 15%);
+}
+
+.contentproject:hover {
+    box-shadow: 0 3px 6px rgb(0 0 0 / 8%), 0 3px 6px rgb(0 0 0 / 15%);
+}
+
+.cardprojectparent .footerproject {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.projectcard {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contentproject {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contentproject img {
+    border-radius: 10px;
+}
+
+.projectcard p {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.color-gradient {
+    background: linear-gradient(90deg, red, blue);
+    background-clip: text;
+    color: transparent;
+}
+
+.recaptchacont {
+    margin: 20px auto !important;
+}
+
+
+/* media downside */
+
+@media(max-width:1200px) {
+    .contentproject {
+        flex-direction: column;
+    }
+    .contentproject p {
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:1030px) {
+    .wrapper .row {
+        margin-left: 400px;
+    }
+    .wrapper .center-line {
+        left: 360px;
+    }
+}
+
+@media (max-width:910px) {
+    .wrapper .row section {
+        min-width: 400px;
+    }
+}
+
+@media (max-width:865px) {
+    .MuiDrawer-paper {
+        width: 240px !important;
+    }
+    .parentcontainercontactpage,
+    .conform {
+        margin-left: 240px !important;
+    }
+    .titleContact,
+    .headerAbout,
+    .eduheader,
+    .headerprojects {
+        margin-left: 275px;
+    }
+    .homecarddynamicwidth {
+        margin-left: 240px;
+    }
+    .descAbout,
+    .skillscontainer,
+    .cardprojectparent {
+        margin-left: 275px !important;
+    }
+    .wrapper .row {
+        margin-left: 330px;
+    }
+    .wrapper .center-line {
+        left: 290px;
+    }
+}
+
+@media (max-width:740px) {
+    .MuiDrawer-paper {
+        width: 100vw !important;
+    }
+    .ccopen,
+    .ccclose {
+        display: block !important;
+    }
+    .titleContact,
+    .headerAbout,
+    .eduheader,
+    .headerprojects {
+        margin-left: 25px;
+        text-align: center !important;
+    }
+    .homecarddynamicwidth {
+        margin-left: 0;
+    }
+    .parentcontainercontactpage,
+    .conform,
+    .cardprojectparent {
+        margin-left: 20px !important;
+    }
+    .cardprojectparent {
+        margin-right: 20px;
+    }
+    .margintopauto {
+        margin-top: 0 !important;
+    }
+    .descAbout,
+    .skillscontainer,
+    .buttondowncvdiv {
+        margin-left: 25px !important;
+    }
+    .wrapper .row {
+        margin-left: 100px;
+    }
+    .wrapper .center-line {
+        left: 60px;
+    }
+    .wrapper .row section {
+        width: calc(100% - 20px);
+    }
+}
+
+@media(max-width:620px) {
+    .row section .details {
+        flex-direction: column;
+        align-items: inherit;
+    }
+    .row section .details .title {
+        text-align: center;
+    }
+    .dateedu {
+        text-align: right;
+    }
+}
+
+@media(max-width:600px) {
+    .dbfromflex {
+        flex-direction: column;
+    }
+    .cformemail {
+        margin-left: 0 !important;
+        margin-top: 20px !important;
+        width: 100% !important;
+    }
+    .cformname {
+        width: 100% !important;
+    }
+    .parentcontainercontactpage,
+    .conform {
+        margin-left: 0 !important;
+    }
+    .wrapper .row section {
+        min-width: 0px;
+    }
+}
+
+@media(max-width:450px) {
+    .wrapper .row {
+        margin-left: 75px;
+    }
+    .wrapper .center-line {
+        left: 35px;
+    }
+    .wrapper .row section {
+        width: calc(100% - 10px);
+    }
+    .projectcard img {
+        width: 98%;
+    }
+}
