@@ -21,6 +21,7 @@ import WorkIcon from '@material-ui/icons/Work';
 import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
 import Eduicon from './eduicon';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const drawerWidth = 300;
 
@@ -120,6 +121,27 @@ export default function PersistentDrawerLeft(props) {
     setthis = false
 
   const [open, setOpen] = React.useState(setthis);
+
+  const [size, setSize] = React.useState(window.innerWidth)
+  useEffect(() => {
+    
+    window.addEventListener("resize", updateWidth);
+
+    
+    console.log("rerender?");
+    if(window.innerWidth>=740)
+    setthis = true
+  else
+    setthis = false
+
+    setOpen(setthis)
+  
+    return () => window.removeEventListener("resize", updateWidth);
+}, [size])
+
+  const updateWidth = () => {
+    setSize(window.innerWidth)
+  }
 
   const handleDrawerOpen = () => {
     setOpen(true);
