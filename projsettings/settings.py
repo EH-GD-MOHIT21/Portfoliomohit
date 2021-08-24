@@ -141,6 +141,7 @@ MEDIA_URL = '/projectimgs/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'build/projectimgs')
 
+SERVE_STATIC = os.path.join(BASE_DIR,'build/static')
 
 EMAIL_SENDER = "no.reply.python.py@gmail.com" 
 
