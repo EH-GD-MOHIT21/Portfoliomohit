@@ -128,7 +128,6 @@ export default function PersistentDrawerLeft(props) {
     window.addEventListener("resize", updateWidth);
 
     
-    console.log("rerender?");
     if(window.innerWidth>=740)
     setthis = true
   else
