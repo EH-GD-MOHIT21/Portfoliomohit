@@ -68,8 +68,8 @@ export default function MyCard() {
     <Card className={classes.root} elevation={0}>
       <CardMedia
         className={classes.media}
-        image="https://media-exp1.licdn.com/dms/image/C4E03AQG9Jn2tcpBT9A/profile-displayphoto-shrink_400_400/0/1613406079537?e=1633564800&v=beta&t=KiyJB_4kXVvI_Q17zqFZzY9RVjXxmgsuqIceyHXrpOo"
-        title="Paella dish"
+        image="https://raw.githubusercontent.com/EH-GD-MOHIT21/EH-GD-MOHIT21/main/mohit.jpeg"
+        title="Mohit Satija"
       />
       <CardContent>
         <Typography variant="body2" component={'div'} color="textSecondary" className={classes.txtcntr}>
@@ -77,10 +77,10 @@ export default function MyCard() {
           <h4 id="typing">A Youtuber</h4>
         </Typography>
         <div className={classes.iconscontainerhome}>
-          <a className={classes.colpup} href="https://google.com" target="_blank"><GitHubIcon className="Gith"/></a>
-          <a className={classes.colpup} href="https://google.com" target="_blank"><InstagramIcon className="Insh"/></a>
-          <a className={classes.colpup} href="https://google.com" target="_blank"><YouTubeIcon className="Youh"/></a>
-          <a className={classes.colpup} href="https://google.com" target="_blank"><LinkedInIcon className="Linh"/></a>
+          <a className={classes.colpup} href="https://github.com/EH-GD-MOHIT21/" target="_blank"><GitHubIcon className="Gith"/></a>
+          <a className={classes.colpup} href="https://www.instagram.com/i_m_mohit021/" target="_blank"><InstagramIcon className="Insh"/></a>
+          <a className={classes.colpup} href="https://www.youtube.com/channel/UC41ksagdFtAUKfSsNzGubhA" target="_blank"><YouTubeIcon className="Youh"/></a>
+          <a className={classes.colpup} href="https://www.linkedin.com/in/mohit-satija-4b8732209/" target="_blank"><LinkedInIcon className="Linh"/></a>
         </div>
       </CardContent>
     </Card>
