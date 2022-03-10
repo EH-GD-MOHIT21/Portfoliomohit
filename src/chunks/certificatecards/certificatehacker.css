@@ -1,0 +1,119 @@
+.certificate-link .certificate-heading {
+    font-size: 13px;
+}
+
+.certificate-v2 .certificate-heading, .certificate-v2 .certificate-heading-green {
+    color: #fff;
+}
+.certificate-heading-green {
+    color: #1ba94c;
+}
+.certificate-heading {
+    margin: 0;
+    color: #0e141e;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: -.6px;
+}
+
+.certificate-container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 10%;
+    height: 60%;
+}
+
+.certificate-v2 {
+    position: relative;
+    background-color: #1ba94c;
+    box-shadow: -6px 6px 10px 0 rgb(0 0 0 / 20%);
+}
+
+.certificate {
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    position: relative;
+    padding-top: 133.33%;
+    min-width: 100px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.hacker-certificates .hacker-certificate {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+.theme-m a, .theme-m label, .theme-m p {
+    font-weight: 400;
+    font-family: Arial,Helvetica,sans-serif;
+    font-family: var(--font-family-text);
+}
+
+.hacker-certificates {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+
+.certificate-v2:before {
+    filter: brightness(1000%);
+}
+
+.certificate:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://hrcdn.net/community-frontend/assets/svgs/certificate_badge-fd52c2a8c3.svg") transparent no-repeat 10% 10%;
+    background-size: 17.5%;
+    content: "";
+}
+
+.certificate {
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    position: relative;
+    padding-top: 133.33%;
+    min-width: 100px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.certificate-v2 {
+    position: relative;
+    background-color: #1ba94c;
+    box-shadow: -6px 6px 10px 0 rgb(0 0 0 / 20%);
+}
+
+.certificate-v2 .folded-corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    padding-top: 35%;
+    width: 35%;
+    height: 0;
+}
+
+.certificate-v2 .folded-corner:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #32c766;
+    content: "";
+    transform: rotate(45deg) scale(1.5) translateY(50%);
+}
+
+.folded-corner{
+    background: rgba(0,0,0,0);
+    box-shadow: 3px -3px 0 3px rgba(0,0,0,0), -4px 4px 6px rgba(0, 0, 0, 0.25);
+}
+

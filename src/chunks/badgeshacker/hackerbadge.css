@@ -1,0 +1,24 @@
+.hacker-badges-v2 .hacker-badge {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.section-card {
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 10%);
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.ui-badge .badge-title {
+    fill: #39424e;
+    text-anchor: middle;
+    font-weight: 700;
+}
+
+.ui-badge {
+    position: relative;
+    width: 100%;
+}
