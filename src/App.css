@@ -66,6 +66,16 @@ body {
     text-align: right !important;
 }
 
+.ccopen{
+    background: white !important;
+    border-radius: 20px !important;
+    box-shadow: rgb(0 0 0 / 35%) 0px 0px 15px;
+}
+
+.text-cente{
+    text-align: center !important;
+}
+
 #root {
     background: #e1f5fe;
     position: relative;

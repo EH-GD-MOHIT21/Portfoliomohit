@@ -145,9 +145,9 @@ export default function Trainingschunk() {
               Python, c++, SQL and 6 stars in problem solving.
             </p>
             <h4 className="m-0">Verified Skills</h4>
-            <div className="bottom mt-x">
+              <div className="bottom mt-x">
               <Certificatehacker />
-            </div>
+              </div>
             <h4 className="m-0">Verified Badges</h4>
             <div className="mt-x">
               <Hackerbadge />
