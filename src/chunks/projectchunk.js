@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Projectchunk() {
     const projects = [
+        "My Vision 11",
         "Nested Forms",
         "Chat App",
         "Blog App",
@@ -21,6 +22,8 @@ export default function Projectchunk() {
         "Music Player",
     ]
     const DescF = [
+        "A website for playing fantasy game build using Django, Channels, DRF, Celery uses django-allauth as authentication along with social authentication via google. MyVision11 uses two types of currency 1.vision coin for those whose age is verified else 2. vision candies. Razorpay is added for transaction can only be used if age verified.It uses celery workers to get and update score/points for users it collects data from unofficial APIs of cricbuzz via web scrapping (bs4 manually automated). Queue based chat support system, dynamic dashboard (seprated for users and staff) with lots of features and analytics. Custom parsing of contest winner supported via admins (dynamic number of winner). Uses django signals for saving user details.",
+
         "A Website for form/Quiz Creation made with Html, Css, JavaScript, BootStrap and Backend in Django (Python) Api based Otp generator (email based) expires within 5 minutes implemented using caching. Implemented Custom Permission.(Third Person Can not see Response of others.) A Dynamic Creator Only Access Page for form/Quiz managemant. Schedule Quiz/Form according to local time. Survey/Analysis of user responses with in a single click. Generate csv file of user responses, custom negative marking option and many more features to explore.",
 
         "A website for text chat with custom html,css tag support made with Html, CSS, JavaScript, React, Django, Django Channels, Redis. There are basically two methods to create room public and private for public every one with the url have access in group, for private even you have an link you should know the password of group to join. Currently web socket communication is handled over http only also the messages sent won't be save at server.",
@@ -34,6 +37,7 @@ export default function Projectchunk() {
         "A music player website made with HTML, CSS, JavaScript, SCSS. Implemented Custom Animation using JavaScript. Day/Night mode Available. Added Event Listener on Progress Bar. Loop song/Shuffle Song Features Available Keyboard Keys Binded with Player and some more JavaScript Based Features."
     ]
     const view_source_urls = [
+        "https://github.com/EH-GD-MOHIT21/vision11",
         "https://github.com/EH-GD-MOHIT21/tempnf",
         "https://github.com/EH-GD-MOHIT21/Chat",
         "https://github.com/EH-GD-MOHIT21/chimkandi-blog/tree/version2",
@@ -42,6 +46,7 @@ export default function Projectchunk() {
         "https://github.com/EH-GD-MOHIT21/musicwala/tree/version2.2"
     ]
     const view_live_urls = [
+        "https://vision11.herokuapp.com/",
         "https://nestedform.herokuapp.com/",
         "https://nestedchat.herokuapp.com/",
         "https://cbv2.herokuapp.com/",
@@ -50,6 +55,7 @@ export default function Projectchunk() {
         "https://eh-gd-mohit21.github.io/musicwala/"
     ]
     const imgSrc = [
+        "./projectimgs/vision11.png",
         "./projectimgs/nf.png",
         "./projectimgs/chatapp.png",
         "./projectimgs/cbv2.png",
