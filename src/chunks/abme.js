@@ -42,7 +42,7 @@ export default function Abme() {
                 </div>
                 <div className="descAbout">
                     <h1>I'm Mohit Satija and Full Stack Developer</h1>
-                    <p>Hello 👋! I am Mohit Satija, currently Third year computer science undergraduate student at Shri Mata Vaishno Devi University, Katra, Jammu. I am working as a Full Stack Python Developer. I enjoy building everything from small sites and landing pages to rich interactive web apps. I love creating visually stunning and responsive websites. I always try to combine aesthetic with functional aspects, looking for the right balance to communicate without annoying.
+                    <p>Hello 👋! I am Mohit Satija, currently Final year computer science undergraduate student at Shri Mata Vaishno Devi University, Katra, Jammu. I am working as a Full Stack Python Developer. I enjoy building everything from small sites to rich interactive web apps. I love creating visually stunning and responsive websites. I always try to combine aesthetic with functional aspects, looking for the right balance to communicate without annoying.
                     </p>
                     <p> I enjoy the collaborative nature of working with a team on building a product. The feedback, discussion, and review in this environment brings out the best in each individual member, and is a crucial component in our own personal development. I'm ready to jump onto a supportive team and begin contributing. I also enjoy programming and the coding world.</p>
                 </div>

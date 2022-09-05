@@ -14,3 +14,12 @@ class EmailRecords(models.Model):
     @property
     def set_timestamp(self):
         self.send_at = timezone.now().date()
+
+
+
+class RenderPermission(models.Model):
+    site_domain = models.CharField(unique=True,max_length=50)
+    render_template = models.BooleanField(default=True)
+    # if render_template False
+    title = models.CharField(max_length=100,null=True,blank=True)
+    description = models.TextField(null=True,blank=True)

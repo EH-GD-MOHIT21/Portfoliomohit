@@ -26,7 +26,7 @@ import { useEffect } from 'react';
 
 const drawerWidth = 300;
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((theme,drawerColor) => ({
   root: {
     display: 'flex'
   },
@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "50px"
   },
   hide: {
-    display: 'none',
+    display: 'none !important',
   },
   drawer: {
     width: drawerWidth,
@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerPaper: {
     width: drawerWidth,
-    background: "#e1f5fe !important"
+    background: drawerColor,
   },
   drawerHeader: {
     display: 'flex',
@@ -113,7 +113,13 @@ export default function PersistentDrawerLeft(props) {
     "/contactme",
   ]
   // urls order must be similar to downwards objects...
-  const classes = useStyles();
+  let navcolor;
+  if(props.color=="transparent"){
+    navcolor = "transparent !important";
+  }else{
+    navcolor = "#e1f5fe !important"
+  }
+  const classes = useStyles(navcolor);
   const theme = useTheme();
 
   var setthis = false;

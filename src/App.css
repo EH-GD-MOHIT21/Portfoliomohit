@@ -55,10 +55,6 @@ body {
     cursor: pointer;
 }
 
-#homecom {
-    height: 100vh;
-    overflow-y: auto;
-}
 
 .ccopen,
 .ccclose {
@@ -165,6 +161,7 @@ body {
 
 .homecarddynamicwidth {
     margin-left: 280px;
+    z-index: 500;
 }
 
 .bgnavactive {
@@ -296,6 +293,12 @@ html {
     transform: translate(-50%, -50%);
 }
 
+.canvashomestyling{
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .projectcard img {
     width: 400px;
     min-height: 250px;
@@ -304,9 +307,6 @@ html {
 }
 
 .contentproject {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background: transparent;
     padding-left: 10px;
     padding-right: 10px;
@@ -330,6 +330,7 @@ html {
 .projectcard {
     margin-top: 10px;
     margin-bottom: 10px;
+    max-width: 500px;
 }
 
 .contentproject {
@@ -376,6 +377,62 @@ html {
     padding: 3px 1px 3px 5px;
     text-align: center;
     margin-right: 1px;
+}
+
+
+#homecom {
+    height: 100vh;
+    overflow-y: auto;
+    background-image: url('http://127.0.0.1:8000/projectimgs/homebg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.MuiPaper-root,.jss7{
+    background: unset !important;
+}
+
+.jss15{
+    z-index: 100;
+}
+
+canvas{
+    z-index: 1;
+}
+
+.redirecturlicowrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.githubiconprojects,.liveiconprojects{
+    margin-right: 6px;
+}
+
+.redirecturlicowrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    padding: 7px 12px;
+    font-size: 0.875rem;
+    text-decoration: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.arrow_btn {
+    display: block !important;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 

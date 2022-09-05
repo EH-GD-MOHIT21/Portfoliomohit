@@ -7,6 +7,7 @@ import os
 import smtplib
 from email.message import EmailMessage
 from .verifier import *
+from .models import RenderPermission
 
 
 class sendmail(APIView):
@@ -44,3 +45,12 @@ class sendmail(APIView):
         except Exception as e:
             print(e)
             return Response({'result': 'Email Not Send.'})
+
+
+
+def RenderPermissionView(request):
+    obj = RenderPermission.objects.get(site_domain='mohitsatija')
+    if obj.render_template:
+        return render(request,'index.html')
+    else:
+        return render(request,'maintain.html',{'obj':obj})

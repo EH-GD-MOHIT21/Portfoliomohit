@@ -2,6 +2,10 @@ import { Typography } from '@material-ui/core'
 import React from 'react';
 import ShortTextIcon from '@material-ui/icons/ShortText';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import VisibilityIcon from '@material-ui/icons/Visibility';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import clsx from "clsx";
 
 const useStyles = makeStyles((theme) => ({
     shorttext:{
@@ -46,7 +50,7 @@ export default function Projectchunk() {
         "https://github.com/EH-GD-MOHIT21/musicwala/tree/version2.2"
     ]
     const view_live_urls = [
-        "https://vision11.herokuapp.com/",
+        "http://myvision11.herokuapp.com/",
         "https://nestedform.herokuapp.com/",
         "https://nestedchat.herokuapp.com/",
         "https://cbv2.herokuapp.com/",
@@ -76,10 +80,11 @@ export default function Projectchunk() {
                         <h1>{name}</h1>
                         <div className="contentproject">
                             <img src={imgSrc[index]}/>
-                            <p>
+                            <KeyboardArrowDownIcon className={clsx("arrow_btn_"+index,"arrow_btn")}/>
+                            <p className={clsx("project_desc_"+index,"project_desc")}>
                             {DescF[index]}<div className="footerproject">
-                            <a href={view_source_urls[index]} target="_blank">View Source</a>
-                            <a href={view_live_urls[index]} target="_blank">View Live</a>
+                            <a className="redirecturlicowrapper" href={view_source_urls[index]} target="_blank"><GitHubIcon className="githubiconprojects"/>Source</a>
+                            <a className="redirecturlicowrapper" href={view_live_urls[index]} target="_blank"><VisibilityIcon className="liveiconprojects"/> Live</a>
                         </div>
                         </p>
                         </div>

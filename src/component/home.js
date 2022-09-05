@@ -8,7 +8,8 @@ export default function Home() {
     return (
         <div className="homecom" id="homecom">
             <ScriptTag type="text/javascript" src="https://mohitsatija.herokuapp.com/static/particlejs/typedm.js"/>
-            <PersistentDrawerLeft hover="Home"/>
+            <canvas className="canvashomestyling" id="liquid-canvas"></canvas>
+            <PersistentDrawerLeft hover="Home" color="transparent"/>
             <MyCard/>
         </div>
     )

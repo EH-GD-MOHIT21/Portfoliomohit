@@ -80,7 +80,7 @@ export default function MyCard() {
           <a className={classes.colpup} href="https://github.com/EH-GD-MOHIT21/" target="_blank"><GitHubIcon className="Gith"/></a>
           <a className={classes.colpup} href="https://www.instagram.com/i_m_mohit021/" target="_blank"><InstagramIcon className="Insh"/></a>
           <a className={classes.colpup} href="https://www.youtube.com/channel/UC41ksagdFtAUKfSsNzGubhA" target="_blank"><YouTubeIcon className="Youh"/></a>
-          <a className={classes.colpup} href="https://www.linkedin.com/in/mohit-satija-4b8732209/" target="_blank"><LinkedInIcon className="Linh"/></a>
+          <a className={classes.colpup} href="https://www.linkedin.com/in/mohit-satija-8591a1221/" target="_blank"><LinkedInIcon className="Linh"/></a>
         </div>
       </CardContent>
     </Card>
