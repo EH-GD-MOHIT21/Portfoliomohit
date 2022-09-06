@@ -380,7 +380,7 @@ html {
 #homecom {
     height: 100vh;
     overflow-y: auto;
-    background-image: url('http://127.0.0.1:8000/projectimgs/homebg.webp');
+    background-image: url('https://mohitsatija.herokuapp.com/projectimgs/homebg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
