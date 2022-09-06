@@ -311,14 +311,8 @@ html {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 7px;
-    background: white;
-    margin-top: 40px;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 8%), 0 1px 3px rgb(0 0 0 / 15%);
 }
 
-.contentproject:hover {
-    box-shadow: 0 3px 6px rgb(0 0 0 / 8%), 0 3px 6px rgb(0 0 0 / 15%);
-}
 
 .cardprojectparent .footerproject {
     display: flex;
@@ -330,7 +324,11 @@ html {
 .projectcard {
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width: 500px;
+    max-width: 420px;
+}
+
+.marginunset{
+    margin: unset !important;
 }
 
 .contentproject {
@@ -344,7 +342,6 @@ html {
 
 .projectcard p {
     text-align: justify;
-    margin-left: 20px;
 }
 
 .color-gradient {
@@ -435,15 +432,31 @@ canvas{
     margin-left: 10px;
 }
 
+.cardprojectchild{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white !important;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 8%), 0 1px 3px rgb(0 0 0 / 15%);
+}
+
+.cardprojectparent{
+    text-align: unset;
+}
+
+.cardprojectparent{
+    align-items: flex-start !important;
+}
+
+.footercontentstamp{
+    text-align: right;
+    margin: 20px;
+}
 
 /* media downside */
 
 @media(max-width:1200px) {
     .contentproject {
         flex-direction: column;
-    }
-    .contentproject p {
-        padding-right: 10px;
     }
 }
 

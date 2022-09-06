@@ -64,7 +64,8 @@ export default function MyCard() {
   const classes = useStyles();
 
   return (
-      <div className={clsx(classes.centr,"homecarddynamicwidth")}>
+      <div className="homecarddynamicwidth">
+        <div className={classes.centr}>
     <Card className={classes.root} elevation={0}>
       <CardMedia
         className={classes.media}
@@ -84,6 +85,10 @@ export default function MyCard() {
         </div>
       </CardContent>
     </Card>
+    </div>
+    <div className="footercontentstamp">
+            <h4>Updated on: 6 Sept 2022</h4>
+    </div>
     </div>
   );
 }

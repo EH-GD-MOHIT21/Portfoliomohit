@@ -25,6 +25,22 @@ export default function Trainingschunk() {
       <div className="wrapper">
         <div className="center-line"></div>
 
+        <div className="row row-2">
+          <section>
+            <LocationOnIcon className="icon" />
+            <div className="details">
+              <span className="title">AWS Cloud Training</span>
+              <span className="dateedu">April 2022 - June 2022</span>
+            </div>
+            <a href="https://www.credly.com/badges/fe2a9c1b-645f-4a6e-a9a2-687436c0f1d7" target="_blank">AWS Academy</a>
+            <div className="bottom">
+              <p>
+                Learnt different types of computational services provided by AWS (such as kubernetes, EC2, lambda etc.), differnt types of databases offered by AWS (such as amazon redshift, dynamoDB, amazon aurora etc.), security by aws (such as KMS, IAM, shield), cloud adaption framework with its 6 perspectives, billing at AWS, vpc networking and peering etc.
+              </p>
+            </div>
+          </section>
+        </div>
+
 
         <div className="row row-2">
           <section>
@@ -36,7 +52,7 @@ export default function Trainingschunk() {
             <a href="https://leetcode.com/experimentallyf/" target="_blank">leetcode.com</a>
             <div className="bottom">
               <p>
-                Currently solved 100+ Problems in different data structures including arrays, linked list, map and BSTs.
+                Currently solved 300+ Problems in different data structures including arrays, linked list, map, BSTs etc. and learnt various types of algorithms and problem solving techniques including backtracking and dynamic programming.
               </p>
             </div>
           </section>
@@ -106,6 +122,27 @@ export default function Trainingschunk() {
             <div className="bottom">
               <i>Receive 48⭐ out of 50⭐</i>
             </div>
+          </section>
+        </div>
+
+        <div className="row row-2">
+          <section>
+            <LocationOnIcon className="icon" />
+            <div className="details">
+              <span className="title">Google Cloud</span>
+              <span className="dateedu">
+                18 OCT 2020 - 18 NOV 2020
+              </span>
+            </div>
+            <a
+                href="https://www.cloudskillsboost.google/public_profiles/e32246b2-7e18-43e4-a024-abff23358e1b"
+                target="_blank"
+              >
+                Google Cloud
+            </a>
+            <p>
+              Learnt basic fundamentals of cloud computing, SQL (BIG Query), Machine Learning (Jupyter Notebook), built Interactive Apps with Google Assistant at cloud.
+            </p>
           </section>
         </div>
 
