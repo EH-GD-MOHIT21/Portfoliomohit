@@ -52,6 +52,22 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
+function getCookie(name) {
+    if (!document.cookie) {
+      return null;
+    }
+  
+    const xsrfCookies = document.cookie.split(';')
+      .map(c => c.trim())
+      .filter(c => c.startsWith(name + '='));
+  
+    if (xsrfCookies.length === 0) {
+      return null;
+    }
+    return decodeURIComponent(xsrfCookies[0].split('=')[1]);
+}
+
+
 export default function Contactform() {
 
     const recaptchaRef = React.createRef();
@@ -61,6 +77,7 @@ export default function Contactform() {
         var email = document.getElementById("email").value;
         var subject = document.getElementById("subject").value;
         var message = document.getElementById("message").value;
+        let config = {headers:{'X-CSRFToken': getCookie('X-CSRFToken')}}
         if(name!==""&&email!==""&&subject!==""&&message!==""){
 
             axios.post('/auth/mail', {
@@ -69,7 +86,7 @@ export default function Contactform() {
                 'subject': subject,
                 'message': message,
                 "g-recaptcha-response":recaptchaRef.current.getValue()
-            })
+            },config)
             .then(res => {
                 alert(res["data"]["result"])
             })

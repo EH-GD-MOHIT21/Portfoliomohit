@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -143,8 +145,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'build/projectimgs')
 
 SERVE_STATIC = os.path.join(BASE_DIR,'build/static')
 
-EMAIL_SENDER = "no.reply.python.py@gmail.com" 
+EMAIL_SENDER = "no.reply.mohit.apps@gmail.com" 
 
-PASS_MAIL = "qwerty@123"
+PASS_MAIL = os.getenv('PASS_MAIL')
 
 CAPTCHA_SERVER_CODE = "6LcDKRocAAAAAKN9SH8p3NPlXoWKDWxNJSGl3ihE"
+
+CSRF_COOKIE_NAME = "X-CSRFToken"
