@@ -57,7 +57,7 @@ export default function RecipeReviewCard({subdata,index}) {
                         </Avatar>
                     }
                     title={subdata[0]}
-                    subheader="September 14, 2016"
+                    subheader={subdata[5]}
                 />
                 <div className="contentproject">
                     <CardMedia

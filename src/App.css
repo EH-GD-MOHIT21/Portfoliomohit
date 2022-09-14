@@ -508,6 +508,10 @@ canvas{
 }
 
 @media (max-width:740px) {
+    .jss7{
+        background: #e1f5fe !important;
+    }
+    
     .MuiDrawer-paper {
         width: 100vw !important;
     }

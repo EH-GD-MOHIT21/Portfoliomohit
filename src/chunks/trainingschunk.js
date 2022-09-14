@@ -29,6 +29,22 @@ export default function Trainingschunk() {
           <section>
             <LocationOnIcon className="icon" />
             <div className="details">
+              <span className="title">Competitive Programmer</span>
+              <span className="dateedu">Sept 2022 - Current</span>
+            </div>
+            <a href="https://auth.geeksforgeeks.org/user/experimentallyf" target="_blank">Geeks For Geeks</a>
+            <div className="bottom">
+              <p>
+                Currently Solved 100+ Problems using different types of data structure and algorithms.
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <div className="row row-2">
+          <section>
+            <LocationOnIcon className="icon" />
+            <div className="details">
               <span className="title">AWS Cloud Training</span>
               <span className="dateedu">April 2022 - June 2022</span>
             </div>

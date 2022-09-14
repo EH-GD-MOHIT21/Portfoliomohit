@@ -21,6 +21,7 @@ const data = [
         "https://github.com/EH-GD-MOHIT21/vision11",
         "http://myvision11.herokuapp.com/",
         "./projectimgs/vision11.png",
+        "May 2022"
     ],
     [
         "Nested Forms",
@@ -28,6 +29,7 @@ const data = [
         "https://github.com/EH-GD-MOHIT21/tempnf",
         "https://nestedform.herokuapp.com/",
         "./projectimgs/nf.png",
+        "December 2021"
     ],
     [
         "Chat App",
@@ -35,6 +37,7 @@ const data = [
         "https://github.com/EH-GD-MOHIT21/Chat",
         "https://nestedchat.herokuapp.com/",
         "./projectimgs/chatapp.png",
+        "September 2021"
     ],
     [
         "Blog App",
@@ -42,6 +45,7 @@ const data = [
         "https://github.com/EH-GD-MOHIT21/chimkandi-blog/tree/version2",
         "https://cbv2.herokuapp.com/",
         "./projectimgs/cbv2.png",
+        "July 2021"
     ],
     [
         "Tic Tac Toe",
@@ -49,6 +53,7 @@ const data = [
         "https://github.com/EH-GD-MOHIT21/CTTT",
         "https://cttt.herokuapp.com/login",
         "./projectimgs/cttt.png",
+        "October 2021"
     ],
     [
         "Calculator Apk",
@@ -56,14 +61,15 @@ const data = [
         "https://github.com/EH-GD-MOHIT21/Calculator-apk-in-kotlin",
         "https://github.com/EH-GD-MOHIT21/Calculator-apk-in-kotlin",
         "./projectimgs/cal.jpg",
-
+        "April 2021"
     ],
     [
         "Music Player",
         "A music player website made with HTML, CSS, JavaScript, SCSS. Implemented Custom Animation using JavaScript. Day/Night mode Available. Added Event Listener on Progress Bar. Loop song/Shuffle Song Features Available Keyboard Keys Binded with Player and some more JavaScript Based Features.",
         "https://github.com/EH-GD-MOHIT21/musicwala/tree/version2.2",
         "https://eh-gd-mohit21.github.io/musicwala/",
-        "./projectimgs/mw.png"
+        "./projectimgs/mw.png",
+        "July 2021"
     ]
 ]
 

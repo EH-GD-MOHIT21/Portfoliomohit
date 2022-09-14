@@ -51,12 +51,14 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
+    zIndex: 1000
   },
   curpointer:{
     cursor: "pointer"
   },
   colpup:{
     color: "purple",
+    zIndex: 1000
   }
 }));
 
@@ -87,7 +89,7 @@ export default function MyCard() {
     </Card>
     </div>
     <div className="footercontentstamp">
-            <h4>Updated on: 6 Sept 2022</h4>
+            <h4>Updated on: 13 Sept 2022</h4>
     </div>
     </div>
   );
