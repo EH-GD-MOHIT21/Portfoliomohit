@@ -77,7 +77,7 @@ export default function Abme() {
                     </Button>
                 </div>
             </Typography>
-            <ScriptTag type="text/javascript" src="https://mohitsatija.herokuapp.com/static/particlejs/but.js"/>
+            <ScriptTag type="text/javascript" src="https://mohitsatija.pythonanywhere.com/static/particlejs/but.js"/>
         </div>
     )
 }
